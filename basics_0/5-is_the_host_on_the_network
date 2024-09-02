@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Command to ping ip address
+
+# if number is = 0
+if [ $# -eq 0 ]; then 
+    # If no print message error
+    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+else
+    # Ping ip adress 5 times
+    ping -c 5 "$1"
+fi
