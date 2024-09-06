@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Port 98
+PORT=98
+nc -l localhost $PORT
